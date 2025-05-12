@@ -1,0 +1,3 @@
+work on user auth
+work on profile page of user 
+display all the user in admin page 

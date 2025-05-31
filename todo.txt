@@ -1,4 +1,4 @@
-work on user auth
+work on user auth -- rotes 
 add object detection in admin page
 work on profile page of user 
 display all the user in admin page 

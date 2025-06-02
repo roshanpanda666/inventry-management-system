@@ -19,17 +19,18 @@
 ## 🛠️ Tech Stack
 
 **Frontend:**
-- React.js (with Tailwind CSS / ShadCN for UI)
+- NEXT.js (with Tailwind CSS)
 - Charting Library (e.g., Recharts / Chart.js / ApexCharts)
-- Axios for API calls
+- app router
 
 **Backend:**
-- Node.js with Express
-- RESTful API integration (e.g., Alpha Vantage / Finnhub)
+- Node.js
+- NEXT js
+-API routes integration (NEXT js)
 - MongoDB (Mongoose) for watchlist/user data
 
 **Auth:**
-- JWT-based authentication
+- JWT-based authentication (NEXT-auth/auth.js)
 - Login/Register with secure password hashing
 
 ---
@@ -42,37 +43,21 @@ git clone https://github.com/yourusername/stoxy.git
 cd stoxy
 ```
 
-2. **Install dependencies**
-
-- Frontend:
-  ```bash
-  cd client
-  npm install
-  ```
-
-- Backend:
-  ```bash
-  cd server
-  npm install
-  ```
-
 3. **Set up environment variables**
 
 Create a `.env` file in the `/server` directory:
 ```env
-PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-API_KEY=your_stock_api_key
 ```
 
 4. **Run the app**
 ```bash
 # In /server
-npm start
+npm run build
 
 # In /client
-npm start
+npm run dev
 ```
 
 The app will be running at `http://localhost:3000`.
@@ -81,14 +66,13 @@ The app will be running at `http://localhost:3000`.
 
 ## 📷 Screenshots
 
-> Add screenshots here showing UI, stock charts, and watchlist features.
 
 ---
 
 ## 🧪 Future Improvements
 
-- Push notifications on stock movement
-- Portfolio tracking and performance analysis
+- add object detection based data entry
+- order tracking for user
 - More advanced AI-based predictive insights
 - Mobile app (React Native or Kivy-based)
 
@@ -99,13 +83,3 @@ The app will be running at `http://localhost:3000`.
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ---
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 👨‍💻 Author
-
-**Roshan** – [@roshancodes](https://github.com/yourusername)

@@ -1,6 +1,5 @@
-make the log in and register page good add links 
-make the profile page looks good and add logout button 
 work on readme.md
 add object detection in admin page
 display all the user in admin page 
+add dynamic route and work on add to cart product
 

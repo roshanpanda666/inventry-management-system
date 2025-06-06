@@ -1,6 +1,7 @@
-add another proporty in user schema called buying and initially it will be false and in the order page there will be a button called buy when clicked it will be true
+add another property in user schema called buying and initially it will be false and in the order page there will be a button called buy when clicked it will be true
 work on readme.md
 add object detection in admin page
 display all the user in admin page 
 add dynamic route and work on add to cart product
+
 

@@ -1,6 +1,3 @@
 work on readme.md
 add object detection in admin page
-display all the user in admin page 
-add dynamic route and work on add to cart product
-
-
+display all the user in admin page

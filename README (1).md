@@ -1,7 +1,7 @@
 
 # 📈 Stoxy
 
-**Stoxy** is a sleek and responsive full-stack web application that provides real-time stock market insights, analytics, and visualizations. Built with a focus on performance and clean UI, Stoxy is perfect for tracking stock trends, comparing assets, and monitoring your favorites.
+**Stoxy** is a sleek and responsive full-stack web application that includes an admin page ai based and a user page where user will be able to add to cart product and order it.
 
 ---
 
@@ -9,10 +9,10 @@
 
 - 🔍 **Search & View**: Instantly search for stocks and view real-time data.
 - 📊 **Charts & Visualization**: Interactive candlestick charts and line graphs using financial APIs.
-- 🧠 **AI Trend Analysis** *(optional)*: Get intelligent insights on trends (coming soon).
-- 📁 **Watchlist Management**: Add stocks to your personal watchlist.
-- 🌙 **Dark Mode**: Toggle-friendly light/dark UI for comfortable viewing.
+- 🧠 **AI based admin dashboard** : because of the computer based data entry there will be no manual data entry required at the stores 
+- 📁 **Watchlist Management**: Add products to your personal watchlist.
 - 📱 **Responsive Design**: Works smoothly on all devices.
+- 📱 **admin panel**: monitors every user what are the items they have in cart ,order canceled notification ,dispatch button to make the user notify there order is dispatched 
 
 ---
 
@@ -22,12 +22,13 @@
 - NEXT.js (with Tailwind CSS)
 - Charting Library (e.g., Recharts / Chart.js / ApexCharts)
 - app router
+- media pipe for object detection
 
 **Backend:**
 - Node.js
 - NEXT js
 -API routes integration (NEXT js)
-- MongoDB (Mongoose) for watchlist/user data
+- MongoDB (Mongoose) for cloud data
 
 **Auth:**
 - JWT-based authentication (NEXT-auth/auth.js)
@@ -69,8 +70,6 @@ The app will be running at `http://localhost:3000`.
 ---
 
 ## 🧪 Future Improvements
-
-- add object detection based data entry
 - order tracking for user
 - More advanced AI-based predictive insights
 - Mobile app (React Native or Kivy-based)

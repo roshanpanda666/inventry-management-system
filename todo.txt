@@ -1,3 +1,1 @@
-add links in the nav bar
-add put api for buying status in the admin page-admin press a button and order satus upgraded to order shiped 
 add object detection in admin page
